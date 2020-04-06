@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{
+    background-color: white ;
+    width: 1200px;
+    transition: 2s;
+}
+
+#interface{
+    background-color: #75e0ac;
+    width: 1200px;
+    height: 700px;
+    margin-left: 70px;
+    margin-top: 200px;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 28px;
+    position: relative;
+    text-align: center;
+    
+    width: 120px;
+    float: left;
+
+    
+}
+
+.menu ul{
+    background-color: yellowgreen;
+    
+    line-height: 0px;
+    border-radius: 20px;
+    margin-left: 280px;
+    margin-top: -120px;
+     position:absolute; 
+}
+.menu li{
+    line-height: 2px;
+}
+
+.menu li:hover{
+    background-color: green;
+    border-radius: 20px;
+    transition: 4s;
+        
+    
+    
+}
+
